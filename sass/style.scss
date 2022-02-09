@@ -1,1 +1,42 @@
-@import './config'
+@import './config';
+
+
+// Navbar
+#main-header{
+    background: rgba(255, 255, 255, 0);
+
+    &.active{
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .navbar-toggler{
+        box-shadow: none;
+        font-size: 22px;
+        color: $gray;
+        border: 2px solid $gray;
+    }
+
+    .navbar-nav{
+        .nav-item{
+            padding: 0px 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .nav-link{
+                font-family: $ubuntu;
+                font-size: 16px;
+                font-weight: 500;
+                color: $gray;
+
+                &.nav-btn{
+                    padding: 0.7rem 1.2rem;
+                    border: 2px solid $pink-half;
+                    border-radius: 100px;
+                    color: $black-3;
+                }
+            }
+        }
+    }
+}
+
