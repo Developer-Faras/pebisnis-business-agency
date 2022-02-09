@@ -3,7 +3,7 @@
 
 // Navbar
 #main-header{
-    background: rgba(255, 255, 255, 0);
+    background: rgb(255, 255, 255);
 
     &.active{
         background: rgba(255, 255, 255, 0.8);
@@ -28,15 +28,99 @@
                 font-size: 16px;
                 font-weight: 500;
                 color: $gray;
+                transition: all 0.3s ease;
+                cursor: pointer;
+
+                &:hover{
+                    color: $pink;
+                }
 
                 &.nav-btn{
                     padding: 0.7rem 1.2rem;
                     border: 2px solid $pink-half;
                     border-radius: 100px;
                     color: $black-3;
+                    transition: all 0.3s ease;
+
+                    &:hover{
+                        border-color: $pink;
+                        background: $pink;
+                        color: $white;
+                    }
                 }
             }
         }
     }
 }
 
+// Hero
+#hero{
+    background: url(./../images/hero/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .text-box{
+        .subtitle{
+            color: $yellow-2;
+            font-size: 16px;
+            font-family: $ubuntu;
+            margin-bottom: 1.5rem;
+        }
+        .title{
+            font-size: 52px;
+            font-weight: 700;
+            color: $black-3;
+            line-height: 72px;
+            margin-bottom: 2rem;
+        }
+        .desc{
+            font-size: 20px;
+            color: $gray;
+            font-family: $ubuntu;
+            line-height: 36px;
+            margin-bottom: 3rem;
+        }
+
+        .btns{
+            display: flex;
+            align-items: center;
+
+            .btn{
+                padding: 1rem 2.2rem;
+                border-radius: 100px;
+                font-family: $ubuntu;
+                font-size: 18px;
+                font-weight: 500;
+                transition: all 0.3s ease;
+                border: 2px solid $black-3;
+                color: $black-3;
+                margin: 0 0.6rem;
+                word-spacing: 2px;
+
+                &.btn-started{
+                    background: $pink;
+                    color: $white;
+                    border-color: $pink;
+                    padding: 1rem 2.8rem;
+
+                    &:hover{
+                        background-color: $white;
+                        color: $pink;
+                    }
+                }
+
+                &.btn-watch{
+                    &:hover{
+                        color: $white;
+                        background-color: $black-3;
+                    }
+                }
+
+                .icon{
+                    padding-right: 0.2rem;
+                }
+            }
+        }
+    }
+}

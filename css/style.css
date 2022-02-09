@@ -20,7 +20,7 @@ body {
 }
 
 #main-header {
-  background: rgba(255, 255, 255, 0);
+  background: white;
 }
 
 #main-header.active {
@@ -53,6 +53,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #747582;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+#main-header .navbar-nav .nav-item .nav-link:hover {
+  color: #FB3F6C;
 }
 
 #main-header .navbar-nav .nav-item .nav-link.nav-btn {
@@ -60,5 +67,87 @@ body {
   border: 2px solid #FF698D;
   border-radius: 100px;
   color: #282C4B;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#main-header .navbar-nav .nav-item .nav-link.nav-btn:hover {
+  border-color: #FB3F6C;
+  background: #FB3F6C;
+  color: #fff;
+}
+
+#hero {
+  background: url(./../images/hero/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hero .text-box .subtitle {
+  color: #F17216;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+#hero .text-box .title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #282C4B;
+  line-height: 72px;
+  margin-bottom: 2rem;
+}
+
+#hero .text-box .desc {
+  font-size: 20px;
+  color: #747582;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 36px;
+  margin-bottom: 3rem;
+}
+
+#hero .text-box .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .text-box .btns .btn {
+  padding: 1rem 2.2rem;
+  border-radius: 100px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 2px solid #282C4B;
+  color: #282C4B;
+  margin: 0 0.6rem;
+  word-spacing: 2px;
+}
+
+#hero .text-box .btns .btn.btn-started {
+  background: #FB3F6C;
+  color: #fff;
+  border-color: #FB3F6C;
+  padding: 1rem 2.8rem;
+}
+
+#hero .text-box .btns .btn.btn-started:hover {
+  background-color: #fff;
+  color: #FB3F6C;
+}
+
+#hero .text-box .btns .btn.btn-watch:hover {
+  color: #fff;
+  background-color: #282C4B;
+}
+
+#hero .text-box .btns .btn .icon {
+  padding-right: 0.2rem;
 }
 /*# sourceMappingURL=style.css.map */
