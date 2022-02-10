@@ -194,8 +194,8 @@ section .section-header .desc {
 }
 
 #services .content .card:hover {
-  -webkit-box-shadow: -10px 10px 15px -2px rgba(0, 0, 0, 0.2);
-          box-shadow: -10px 10px 15px -2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.2);
 }
 
 #services .content .card .card-body {
@@ -222,5 +222,50 @@ section .section-header .desc {
   color: #747582;
   font-weight: 500;
   line-height: 26px;
+}
+
+#why {
+  background: url(./../images/why/bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#why .section-header .title {
+  color: #fff;
+}
+
+#why .section-header .desc {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+#why .section-header .desc li {
+  padding: 0.4rem 0;
+  color: #CED1E5;
+}
+
+#why .section-header .desc li i {
+  padding-right: 0.4rem;
+}
+
+#why .section-header .started-btn {
+  padding: 1rem 2.4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#FF698D), to(#FB3F6C));
+  background: linear-gradient(90deg, #FF698D, #FB3F6C);
+  border-radius: 100px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#why .section-header .started-btn:hover {
+  background: #fff;
+  color: #FB3F6C;
 }
 /*# sourceMappingURL=style.css.map */
