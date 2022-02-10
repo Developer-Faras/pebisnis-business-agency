@@ -19,6 +19,29 @@ body {
   height: 100%;
 }
 
+section .section-header .name {
+  font-size: 16px;
+  color: #F17216;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+section .section-header .title {
+  font-size: 36px;
+  color: #282C4B;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  padding: 0.3rem 0;
+  margin-bottom: 1rem;
+}
+
+section .section-header .desc {
+  font-family: "Ubuntu", sans-serif;
+  color: #747582;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 #main-header {
   background: white;
 }
@@ -149,5 +172,55 @@ body {
 
 #hero .text-box .btns .btn .icon {
   padding-right: 0.2rem;
+}
+
+#partnar .item img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#partnar .item img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#services .content .card {
+  border: none;
+  padding: 0.3rem 1.2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#services .content .card:hover {
+  -webkit-box-shadow: -10px 10px 15px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: -10px 10px 15px -2px rgba(0, 0, 0, 0.2);
+}
+
+#services .content .card .card-body {
+  display: block;
+}
+
+#services .content .card .card-body .card-img {
+  width: 50px;
+  height: 50px;
+}
+
+#services .content .card .card-body .card-title {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #282C4B;
+  padding: 1rem 0 1.3rem 0;
+}
+
+#services .content .card .card-body .card-text {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  color: #747582;
+  font-weight: 500;
+  line-height: 26px;
 }
 /*# sourceMappingURL=style.css.map */

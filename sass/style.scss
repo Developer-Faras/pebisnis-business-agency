@@ -124,3 +124,56 @@
         }
     }
 }
+
+// Partner
+#partnar{
+    .item{
+        img{
+            filter: grayscale(1);
+            transition: all 0.3s ease;
+
+            &:hover{
+                filter: grayscale(0);
+            }
+        }
+    }
+}
+
+// Services
+#services{
+    .content{
+        .card{
+            border: none;
+            padding: 0.3rem 1.2rem;
+            transition: all 0.3s ease;
+
+            &:hover{
+                box-shadow: -10px 10px 15px -2px rgba(0, 0, 0, 0.2);
+            }
+
+            .card-body{
+                display: block;
+
+                .card-img{
+                    width: 50px;
+                    height: 50px;
+                }
+                .card-title{
+                    font-size: 20px;
+                    line-height: 25px;
+                    font-family: $ubuntu;
+                    font-weight: 600;
+                    color: $black-3;
+                    padding: 1rem 0 1.3rem 0;
+                }
+                .card-text{
+                    font-size: 15px;
+                    font-family: $ubuntu;
+                    color: $gray;
+                    font-weight: 500;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
