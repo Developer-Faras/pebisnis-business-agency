@@ -43,11 +43,15 @@ section .section-header .desc {
 }
 
 #main-header {
-  background: white;
+  background: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 1rem 0;
 }
 
 #main-header.active {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0;
 }
 
 #main-header .navbar-toggler {
@@ -267,5 +271,57 @@ section .section-header .desc {
 #why .section-header .started-btn:hover {
   background: #fff;
   color: #FB3F6C;
+}
+
+#works .content .card {
+  border: none;
+}
+
+#works .content .card .card-body {
+  padding: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#works .content .card .card-body:hover {
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+#works .content .card .card-body img {
+  width: 100%;
+}
+
+#works .content .card .card-body .title {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #14183E;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+#works .content .section-header {
+  padding: 1rem 0;
+}
+
+#works .content .section-header .see-btn {
+  padding: 1rem 2.6rem;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #282C4B;
+  border: 2px solid #FB3F6C;
+  border-radius: 50px;
+  margin-top: 0.5rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#works .content .section-header .see-btn:hover {
+  background: #FB3F6C;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
