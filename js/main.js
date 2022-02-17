@@ -22,3 +22,6 @@ const output = wraper.querySelector('.output');
 input.addEventListener('change', function () {
     output.innerHTML = input.value;
 });
+
+
+// Complated

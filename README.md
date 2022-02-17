@@ -5,7 +5,7 @@
 
 <br />
 
-<h3>Sass Landing Page Desine With Bootstrap</h3>
+<h3>Sass Landing Page Desine With Bootstrap 5</h3>
 
 <h2>Used Language:</h2>
 <ul style="list-style: number;">
@@ -19,7 +19,7 @@
 <h2>Used Frameworks:</h2>
 <ul style="list-style: number;">
     <li style="font-weight: bold;">Bootstrap 5</li>
-    <li style="font-weight: bold;">Google Maps</li>
+    <li style="font-weight: bold;">Bootstrap Icons</li>
 </ul>
 
 <br />
@@ -33,7 +33,7 @@
 </ul>
 
 <br />
-<a href="https://developer-faras.github.io/sass-landing-page/" style="padding: 10px 20px; background: #fff; text-decoration: none; color: rgb(55, 99, 245);" >Visit Demo</a>
+<a href="https://developer-faras.github.io/pebisnis-business-agency/" style="padding: 10px 20px; background: #fff; text-decoration: none; color: rgb(55, 99, 245);" >Visit Demo</a>
 
 
 
